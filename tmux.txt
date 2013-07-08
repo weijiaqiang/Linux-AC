@@ -1,0 +1,7 @@
+1 创建一个session
+	tmux new-session -s session-name
+2 去附着一个session
+	ctrl+r+d
+3 附着一个session
+	tmux a -t session-name
+
