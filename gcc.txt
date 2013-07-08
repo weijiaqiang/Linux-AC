@@ -1,0 +1,5 @@
+1 静态编译可能会遇到的问题
+	报错 /usr/bin/ld: cannot find lc 处理
+	解决方法:
+	yum install glibc-static
+
