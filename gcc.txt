@@ -3,3 +3,22 @@
 	解决方法:
 	yum install glibc-static
 
+2 内嵌宏使用
+	void long_long_function_name(void)
+	{
+		/*
+		 * do anything you like here.  
+		 */
+
+		fprintf(stderr, "line: %d function_name: %s  file_name:%s\n",  __LINE__,__FUNCTION__, __FILE__);
+
+		/*
+		 * do anything you like here.  
+		 */
+	}
+	int main(int argc, char *argv[])
+	{
+
+		long_long_function_name();
+		exit(0);
+	}
