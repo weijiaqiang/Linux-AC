@@ -4,3 +4,10 @@
    :q
 2 列数值递升插件
   visincr.vba
+  
+3 将visincr 插件纳入vim 插件管理系统
+   mkdir ~/.vim/bundle/visincr
+   vim visincr.vba
+   :UseVimball ~/.vim/bundle/visincr
+   :qall
+   
