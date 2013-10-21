@@ -1,0 +1,6 @@
+1 vim vba 插件安装 
+   vim someplugin.vba
+   :so %
+   :q
+2 列数值递升插件
+  visincr.vba
