@@ -11,3 +11,17 @@
    :UseVimball ~/.vim/bundle/visincr
    :qall
    
+
+4 要使新编译的vim 支持ruby，那么就要安装ruby开发环境
+	yum install ruby-devel
+
+5 command-t 使用crtl+s 会导致vim 卡死
+
+6 command-t 可以指定查找的起始目录
+	:CommandT ../../path/../..
+
+7 给某个插件添加帮助文档
+	例如， bookmarks 插件的帮助文档是 /home/hantele/.vim/bundle/vim-bookmarks/doc/bookmarks.txt
+	执行   :helptags /home/hantele/.vim/bundle/vim-bookmarks/doc
+
+	然后执行 :help bookmarks
