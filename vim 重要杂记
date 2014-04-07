@@ -25,3 +25,8 @@
 	执行   :helptags /home/hantele/.vim/bundle/vim-bookmarks/doc
 
 	然后执行 :help bookmarks
+
+8 编译选项
+	./configure --prefix=/usr --enable-netbeans --enable-multibyte --enable-fontset --with-vim-name=vim --with-features=huge  --enable-luainterp --enable-perlinterp --enable-pythoninterp --enable-python3interp --enable-tclinterp --enable-rubyinterp  --enable-cscope   --enable-hangulinput --enable-fontset
+
+
